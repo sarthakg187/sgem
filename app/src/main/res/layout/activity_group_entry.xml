@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:paddingBottom="11dp"
+    android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:id="@+id/group_create_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Create Group"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+
+            android:textSize="30sp"
+            android:layout_margin="21dp"/>
+
+
+
+        <EditText
+            android:id="@+id/group_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Group Name"
+            android:padding="11dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:layout_marginBottom="11dp"/>
+
+
+
+        <EditText
+            android:id="@+id/group_description_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:hint="Enter Group Description"
+            android:padding="11dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+ />
+
+    <Button
+        android:id="@+id/group_save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="11dp"
+        android:background="#783278"
+        android:text="Save"
+        android:layout_gravity="end"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

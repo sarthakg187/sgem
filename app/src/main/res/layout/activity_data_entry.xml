@@ -1,0 +1,234 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+<!-- Progress bar -->
+<ProgressBar
+    android:id="@+id/progress_bar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:visibility="gone" />
+
+<!-- ScrollView -->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    >
+
+
+
+
+
+    <LinearLayout
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:paddingBottom="11dp"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/data_create_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="Create Contact"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+
+        android:textSize="30sp"
+        android:layout_margin="21dp"/>
+       <ImageView
+           android:id="@+id/contact_img"
+           android:layout_width="150dp"
+           android:layout_height="200dp"
+           android:layout_gravity="center"
+           android:scaleType="fitXY"
+           android:src="@drawable/baseline_person_24"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/image_upload_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="11dp"
+                android:layout_marginBottom="11dp"
+                android:background="#783278"
+                android:padding="5dp"
+                android:text="UPLOAD IMAGE"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+        <EditText
+        android:id="@+id/contact_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="11dp"/>
+
+        <EditText
+            android:id="@+id/contact_number_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Phone Number"
+            android:padding="11dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:layout_marginBottom="11dp"
+            android:inputType="phone"/>
+        <EditText
+            android:id="@+id/contact_whatsapp_number_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter What's App Number "
+            android:padding="11dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:layout_marginBottom="11dp"
+            android:inputType="phone"/>
+    <EditText
+        android:id="@+id/contact_age_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="11dp"/>
+    <EditText
+        android:id="@+id/contact_occupation_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Occupation"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="11dp"/>
+    <EditText
+        android:id="@+id/contact_address_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="11dp"/>
+    <EditText
+        android:id="@+id/contact_stayingWith_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Staying with parents/pg/flat"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="11dp"/>
+    <EditText
+        android:id="@+id/contact_chanting_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Chanting rounds"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="11dp"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/contact_native_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Native"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="11dp"/>
+
+
+
+    <EditText
+        android:id="@+id/contact_SG_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:hint="Enter SG Rating(1-10) "
+        android:padding="11dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:inputType="number"
+        />
+
+        <CheckBox
+            android:id="@+id/checkBoxFRJ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="11dp"
+            android:checked="false"
+            android:text="Residency Member" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="11dp"
+            android:checked="false"
+            android:text="Spiritual Gem" />
+        <CheckBox
+            android:id="@+id/checkBoxFRP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="11dp"
+            android:checked="false"
+            android:text="FR Probable" />
+
+        <EditText
+        android:id="@+id/contact_remarks_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:hint="Enter Remarks"
+        android:padding="11dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        />
+
+    <Button
+        android:id="@+id/contact_save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="11dp"
+        android:background="#783278"
+        android:text="Save"
+        android:layout_gravity="end"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SettingsItemContainer">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+
+    <style name="SettingsItem" parent="@android:style/Widget.TextView">
+        <!-- Style attributes for SettingsItem -->
+    </style>
+</resources>

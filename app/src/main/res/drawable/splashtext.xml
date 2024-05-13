@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="1dp" android:right="1dp" android:top="1dp" android:bottom="1dp">
+        <!-- Stroke (border) outside the TextView -->
+        <shape android:shape="rectangle">
+            <solid android:color="#00000000" /> <!-- Transparent background to see the TextView background color -->
+            <stroke android:width="2dp" android:color="#FBF7F7" /> <!-- Set your desired stroke width and color -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#503E272E" />
+            <stroke
+                android:color="#000000"
+                android:width="1dp" />
+
+        </shape>
+    </item>
+    <item android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="5dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#608878AF" />
+
+        </shape>
+    </item>
+</layer-list>

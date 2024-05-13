@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/iiiirow"
+            android:layout_width="match_parent"
+            android:background="@color/honeydew"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+            <ImageView
+                android:id="@+id/data_image"
+                android:layout_width="40dp"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:scaleType="fitCenter"
+                 />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    >
+            <TextView
+                android:id="@+id/data_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Name"
+                android:layout_weight="1"
+                />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/data_fr_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Residency Member :"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/data_fr_response"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Y/N"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/data_frProbable_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FR Probable : "
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/data_frp_response"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y/N"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+
+                >
+
+                <TextView
+                    android:id="@+id/acolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button"
+                    android:padding="5dp"
+                    android:text="A"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/bcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button"
+
+                    android:padding="5dp"
+
+                    android:text="B"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/ccolor"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/round_button"
+                    android:padding="5dp"
+
+
+                    android:text="C"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/dcolor"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button"
+
+                    android:padding="5dp"
+                    android:text="D"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/ecolor"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/round_button"
+                    android:padding="5dp"
+
+                    android:text="E"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+       </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/data_delete_image"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+                app:srcCompat="@drawable/baseline_delete_24" />
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

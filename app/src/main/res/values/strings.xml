@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_header">Spiritual Gem</string>
+    <string name="app_welcome">Click on + to create data</string>
+    <string name="app_name">Spiritual Gems App</string>
+    <string name="default_web_client_id" translatable="false">194784605756-0urvj0fih104s0ge5l1v4d5dlolgm3qn.apps.googleusercontent.com</string>
+</resources>

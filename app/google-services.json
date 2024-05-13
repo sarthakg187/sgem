@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "194784605756",
+    "project_id": "cloudspiritualgemapp",
+    "storage_bucket": "cloudspiritualgemapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194784605756:android:faaee3ddc88cd068653539",
+        "android_client_info": {
+          "package_name": "com.example.cloudspiritualgemapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh9rrlsE4Mbxuxf0O-UP1TFFbTBF5X5uI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
